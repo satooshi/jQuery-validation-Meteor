@@ -7,7 +7,7 @@ Package.on_use(function(api, where) {
     api.use('jquery', where);
 
     api.add_files('lib/jquery.validate.js', where);
-    api.add_files('lib/additional-method.js', where);
+    api.add_files('lib/additional-methods.js', where);
     api.add_files('lib/lib/jquery.form.js', where);
     api.add_files('lib/lib/jquery.mockjax.js', where);
     api.add_files('lib/localization/messages_ja.js', where);
