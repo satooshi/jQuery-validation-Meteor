@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function(api, where) {
-    where = where || [ 'client', 'server' ];
+    where = [ 'client', 'server' ];
     api.use('jquery', where);
 
     api.add_files('lib/jquery.validate.js', where);
