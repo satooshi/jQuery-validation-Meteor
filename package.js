@@ -6,7 +6,6 @@ Package.on_use(function(api, where) {
     where = where || [ 'client', 'server' ];
     api.use('jquery', where);
 
-    api.add_files('lib/jquery-1.8.3.js', where);
     api.add_files('lib/jquery.validate.js', where);
     api.add_files('lib/additional-methods.js', where);
     api.add_files('lib/lib/jquery.form.js', where);
